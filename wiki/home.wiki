@@ -17,11 +17,15 @@ HTTPCommandClient client = new HTTPCommandClient();
 
 // Get a command builder instance
 SmartLincCommandBuilder slcb = new SmartLincCommandBuilder("10.1.10.25", 80);
+
+// Build the command
 String command = slcb.getStandardCommand(
                     "111111", 
                     CommandType.STANDARD_COMMAND, 
                     LightCommand.ON, 
                     LightLevel.LEVEL100);
+
+// Send the command
 String sentResponse = client.sendCommand(command);
 
 }}} 
