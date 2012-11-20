@@ -11,7 +11,12 @@ The SmartLinc controller, from Insteon SmartHome, is an HTTP based controller us
 *Turn Light On*
 {{{
 
+// Get the HTTP Client
+HTTPCommandClient client = new HTTPCommandClient();
+
 // Get a command builder instance
 SmartLincCommandBuilder slcb = new SmartLincCommandBuilder("10.1.10.25", 80);
+String command = slcb.getStandardCommand("111111", CommandType.STANDARD_COMMAND, LightCommand.ON, LightLevel.LEVEL100);
+            String sentResponse = client.sendCommand(command);
 
 }}}
