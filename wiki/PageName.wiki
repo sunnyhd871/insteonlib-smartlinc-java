@@ -1,11 +1,11 @@
 #summary One-sentence summary of this page.
-
+|| <IMG src="http://cache.smarthome.com/images/2412n.jpg/>  ||
 = Introduction =
 
-The SmartLinc controller, from Insteon SmartHome, is an HTTP based controller used to control Insteon devices. This library was created to allow Java programmers to easily develope code in minutes to turn light switches on and off.
+The SmartLinc controller, from Insteon SmartHome, is an HTTP based controller used to control Insteon devices. This library was created to allow Java programmers to easily develope code in minutes to turn light switches on and off. ||
 
 
-|| <IMG src="http://cache.smarthome.com/images/2412n.jpg/>  || 
+ 
 
 = Examples =
  
@@ -24,4 +24,4 @@ String command = slcb.getStandardCommand(
                     LightLevel.LEVEL100);
 String sentResponse = client.sendCommand(command);
 
-}}} ||
+}}} 
