@@ -1,5 +1,5 @@
 #labels Smartlinc,Linking
-#Is Linking, pushing those button required?
+# Summary: Is Linking, pushing those button required?
 
 = Is Linking Required?=
 
