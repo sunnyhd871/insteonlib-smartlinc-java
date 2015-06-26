@@ -1,0 +1,6 @@
+# Is Linking Required? #
+
+Pushing the link or Set buttons is a MUST!
+
+# Why #
+Firmware in INSTEON devices prohibits them from identifying themselves to other devices unless a user physically presses a button on the device.  That is why the Command in the network identification Broadcast message is called Set Button Pressed.  A user has to push buttons on both the Controller device and the Responder device in order to establish a link between them.  A Responder will not act on commands from an unlinked Controller.
